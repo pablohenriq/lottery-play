@@ -7,6 +7,6 @@ class MegaSena
   end
 
   def shuffle_numbers
-    @numbers.shuffle
+    numbers.shuffle
   end
 end
