@@ -5,4 +5,8 @@ class MegaSena
   def initialize
     @numbers = (1..60).to_a
   end
+
+  def shuffle_numbers
+    @numbers.shuffle
+  end
 end

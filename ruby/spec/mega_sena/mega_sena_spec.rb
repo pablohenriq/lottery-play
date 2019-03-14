@@ -3,8 +3,17 @@ require 'mega_sena'
 describe MegaSena do
   context '#initialize' do
     it 'return initial range(1..60)' do
-      n = subject.numbers
-      expect(n).to eq((1..60).to_a)
+      expect(subject.numbers).to eq((1..60).to_a)
+    end
+  end
+
+  context '#shuffle_numbers' do
+    it 'the array size must be equal after shuffle' do
+      expect(subject.numbers.size).to eq(subject.shuffle_numbers.size)
+    end
+
+    it 'return numbers in random order' do
+      expect(subject.numbers).not_to eq(subject.shuffle_numbers)
     end
   end
 end
