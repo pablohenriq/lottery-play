@@ -12,7 +12,7 @@ describe MegaSena do
       expect(subject.numbers.size).to eq(subject.shuffle_numbers.size)
     end
 
-    it 'return numbers in random order' do
+    it 'numbers order: random is not equal original' do
       expect(subject.numbers).not_to eq(subject.shuffle_numbers)
     end
   end
