@@ -1,6 +1,6 @@
-require 'mega_sena'
+require 'game'
 
-describe MegaSena do
+describe Game do
   context '#initialize' do
     it 'return initial range(1..60)' do
       expect(subject.numbers).to eq((1..60).to_a)
