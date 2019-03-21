@@ -24,7 +24,7 @@ class Game
   def show(games = 0)
     games.times do
       puts '---------------------------'
-      puts sorter.uniq.sort.join(' - ')
+      puts sorter.uniq.sort.join(' - ') + " = #{sorter.size} numeros"
     end
     cost(games)
   end

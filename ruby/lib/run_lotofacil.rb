@@ -1,4 +1,4 @@
-require_relative 'quina'
+require_relative 'lotofacil'
 
 print 'How many games you wanna play? '
 
@@ -10,7 +10,7 @@ if char == '0'
 elsif %w[buceta xoxota priquito ppk].include?(char.downcase)
   puts 'Sorry, "' + char + '" is not a number, but is a excelent choice! :p'
 elsif numb > 0
-  game = Quina.new
+  game = Lotofacil.new
   game.show(numb)
 else
   puts 'Sorry, but "' + char + '" is not a number.'
