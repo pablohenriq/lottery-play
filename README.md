@@ -22,7 +22,7 @@ _Lottery in many languages_
  - The return must be in ascend order of numbers of each game;
 
 
-### Run the program em Ruby Lang:
+### Run the program in Ruby Lang:
 ```
 make play-ruby
 ```
