@@ -25,11 +25,11 @@ _Lottery in many languages_
 ### Run the program em Ruby Lang:
 #### Megasena
 ```
-make play-ruby-megasena
+make play-ruby ARG="megasena"
 ```
 #### Quina
 ```
-make play-ruby-quina
+make play-ruby ARG="quina"
 ```
 
 
