@@ -23,14 +23,8 @@ _Lottery in many languages_
 
 
 ### Run the program em Ruby Lang:
-#### Megasena
 ```
-make play-ruby ARG="megasena"
+make play-ruby
 ```
-#### Quina
-```
-make play-ruby ARG="quina"
-```
-
 
 ### Let the game begin!
