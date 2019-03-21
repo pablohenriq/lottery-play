@@ -29,7 +29,7 @@ class Game
 
   def cost(qtd)
     puts '==========================='
-    puts "Total: R$ #{('%.2f' % (qtd * 3.50)).to_s.tr('.', ',')}"
+    puts "Total: R$ #{format('%.2f', (qtd * 3.50)).to_s.tr('.', ',')}"
     puts '==========================='
   end
 end
