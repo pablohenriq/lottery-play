@@ -1,4 +1,4 @@
-require_relative 'game'
+require_relative 'megasena'
 
 print 'How many games you wanna play? '
 
@@ -10,7 +10,7 @@ if char == '0'
 elsif %w[buceta xoxota priquito].include?(char.downcase)
   puts 'Sorry, "' + char + '" is not a number, but is a excelent choice! :p'
 elsif numb > 0
-  game = Game.new
+  game = MegaSena.new
   game.show(numb)
 else
   puts 'Sorry, but "' + char + '" is not a number.'

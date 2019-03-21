@@ -16,7 +16,12 @@ bundle install
 rspec
 ```
 
-### Run the program
+### Run the program:
+#### Megasena
 ```
-make play
+make play-megasena
+```
+#### Quina
+```
+make play-quina
 ```
