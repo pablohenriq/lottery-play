@@ -1,2 +1,4 @@
+ARG=
 play-ruby:
-	ruby ruby/lib/run.rb
+	@echo "Qual aposta quer fazer. Ex: ARG='mega_sena' ou ARG='quina'"
+	ruby ruby/lib/run_$(ARG).rb

@@ -1,16 +1,19 @@
 # Game
 class Game
   attr_accessor :numbers
+  attr_accessor :dozens
 
   def initialize
-    @numbers = (1..60).to_a.map(&:to_s)
+    @numbers = (1..100).to_a.map(&:to_s)
+    @dozens  = 10
+    @game_value = 3.50
   end
 
   def sorter
     original = numbers
     sorted = []
 
-    6.times do
+    dozens.times do
       i = original.sample
       i = "0#{i}" if i.to_i < 10
       sorted << i
@@ -29,7 +32,7 @@ class Game
 
   def cost(qtd)
     puts '==========================='
-    puts "Total: R$ #{format('%.2f', (qtd * 3.50)).to_s.tr('.', ',')}"
+    puts "Total: R$ #{format('%.2f', (qtd * @game_value)).to_s.tr('.', ',')}"
     puts '==========================='
   end
 end

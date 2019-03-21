@@ -22,4 +22,15 @@ _Lottery in many languages_
  - The return must be in ascend order of numbers of each game;
 
 
+### Run the program em Ruby Lang:
+#### Megasena
+```
+make play-ruby-megasena
+```
+#### Quina
+```
+make play-ruby-quina
+```
+
+
 ### Let the game begin!
