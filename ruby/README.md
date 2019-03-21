@@ -1,4 +1,4 @@
-# MegaSena written in Ruby Lang
+# Lottery Play: written in Ruby Lang
 
 ### Enter in ruby directory
 
@@ -14,4 +14,9 @@ bundle install
 ### Run RSpec
 ```
 rspec
+```
+
+### Run the program
+```
+make play
 ```
