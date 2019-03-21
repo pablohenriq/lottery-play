@@ -17,11 +17,6 @@ rspec
 ```
 
 ### Run the program:
-#### Megasena
 ```
-make play-megasena
-```
-#### Quina
-```
-make play-quina
+make play-ruby
 ```
