@@ -21,7 +21,15 @@ class Game
 
   def show(games = 0)
     games.times do
-      p sorter.sort.join(' - ')
+      puts '---------------------------'
+      puts sorter.sort.join(' - ')
     end
+    cost(games)
+  end
+
+  def cost(qtd)
+    puts '==========================='
+    puts "Total: R$ #{('%.2f' % (qtd * 3.50)).to_s.tr('.', ',')}"
+    puts '==========================='
   end
 end
