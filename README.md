@@ -4,11 +4,11 @@ _Lottery in many languages_
 
 ## Languages:
  - Javascript
- - Ruby
- - Clojure
+ - Ruby :beer:
+ - Clojure :gear:
  - Kotlin
  - Elixir
- - Crystal
+ - Crystal :gear:
  - Haskell
  - Go
  - Rust
