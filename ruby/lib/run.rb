@@ -1,7 +1,7 @@
 def menu
-  puts "Quer jogar o que Rogerinho? \n
+  puts "Select a game option \n
   [1] Mega-sena   [2] Quina   [3] Lotomania  [0] Exit \n\n"
-  print 'Digite aqui a sua escolha: '
+  print 'Enter your choice here: '
 end
 
 menu
