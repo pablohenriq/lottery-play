@@ -4,11 +4,11 @@ _Lottery in many languages_
 
 ## Languages:
  - Javascript
- - Ruby
- - Clojure
+ - Ruby :beer:
+ - Clojure :gear:
  - Kotlin
  - Elixir
- - Crystal
+ - Crystal :gear:
  - Haskell
  - Go
  - Rust
@@ -21,5 +21,10 @@ _Lottery in many languages_
  - The program must question the user about how many games he want to play;
  - The return must be in ascend order of numbers of each game;
 
+
+### Run the program in Ruby Lang:
+```
+make play-ruby
+```
 
 ### Let the game begin!
