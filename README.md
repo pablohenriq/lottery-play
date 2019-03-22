@@ -2,6 +2,9 @@
 
 _Lottery in many languages_
 
+## Version:
+> v0.1.0
+
 ## Languages:
  - Javascript
  - Ruby :beer:
