@@ -1,6 +1,6 @@
 require_relative 'game'
 
-# MegaSena Class
+# Quina Class
 class Quina < Game
   def initialize
     @numbers = 80
