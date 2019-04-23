@@ -9,7 +9,6 @@ class Game
     @game_value = 1.5
   end
 
-
   def sorter
     original = numbers
     sorted = Array(Int32).new
@@ -19,15 +18,16 @@ class Game
       sorted << i
       original.delete(i)
     end
-    sorted#.map { |n| n < 10 ? "0#{n}" : n.to_s }
+
+    sorted.map { |n| n < 10 ? "0#{n}" : n.to_s }
   end
 
   def show(games = 0)
     games.times do
       puts "---------------------------"
-      # puts "#{sorter.uniq.sort.to_s} = #{sorter.size.to_s} numeros"
-      puts "#{sorter} = #{sorter.size} numeros"
+      puts "#{sorter.uniq.sort.join(" - ")} = #{sorter.size.to_s} numbers"
     end
+
     cost(games)
   end
 
