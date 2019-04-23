@@ -3,7 +3,7 @@
 _Lottery in many languages_
 
 ## Version:
-> v0.1.0
+> v0.2.0
 
 ## Languages:
  - Javascript
@@ -11,7 +11,7 @@ _Lottery in many languages_
  - Clojure :gear:
  - Kotlin
  - Elixir
- - Crystal :gear:
+ - Crystal :beer:
  - Haskell
  - Go
  - Rust
