@@ -3,12 +3,12 @@
 _Lottery in many languages_
 
 ## Version:
-> v0.2.0
+> v0.3.0
 
 ## Languages:
  - Javascript
  - Ruby :beer:
- - Clojure :gear:
+ - Clojure :beer::tada:
  - Kotlin
  - Elixir
  - Crystal :beer:
