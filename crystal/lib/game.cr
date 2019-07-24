@@ -6,7 +6,7 @@ class Game
   def initialize
     @numbers = (1..60).to_a
     @dozens = 6
-    @game_value = 1.5
+    @game_value = 3.5
   end
 
   def sorter
